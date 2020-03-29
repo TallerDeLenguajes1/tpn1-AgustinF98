@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/c,text
-# Edit at https://www.gitignore.io/?templates=c,text
+# Created by https://www.gitignore.io/api/c,text,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=c,text,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -66,4 +66,15 @@ dkms.conf
 *.wpd
 *.wps
 
-# End of https://www.gitignore.io/api/c,text
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/c,text,visualstudiocode
